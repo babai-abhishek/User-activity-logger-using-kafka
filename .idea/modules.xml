@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Common/Common.iml" filepath="$PROJECT_DIR$/Common/Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kafka-demo-app.iml" filepath="$PROJECT_DIR$/Kafka-demo-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kafka-demo-consumer/Kafka-demo-consumer.iml" filepath="$PROJECT_DIR$/Kafka-demo-consumer/Kafka-demo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kafka-producer-demo/Kafka-producer-demo.iml" filepath="$PROJECT_DIR$/Kafka-producer-demo/Kafka-producer-demo.iml" />
+    </modules>
+  </component>
+</project>
