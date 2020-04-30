@@ -1,5 +1,6 @@
 package com.example.demo.config;
 
+import com.example.demo.entity.UserActivity;
 import model.User;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
@@ -28,7 +29,7 @@ public class KafkaConfiguration {
     }
 
     @Bean
-    public KafkaTemplate<String, User> kafkaTemplate(){
+    public KafkaTemplate<String, UserActivity> kafkaTemplate(){
         return new KafkaTemplate<>(producerFactory());
     }
 }
