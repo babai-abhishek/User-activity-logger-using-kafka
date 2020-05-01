@@ -15,7 +15,7 @@ public class UserActivity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    @OneToOne
+    @OneToOne(cascade = {CascadeType.ALL})
     User user;
 
     private String activity;
