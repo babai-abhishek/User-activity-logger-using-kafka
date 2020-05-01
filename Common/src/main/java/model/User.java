@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
+
 @Entity
 @Data
 @NoArgsConstructor
@@ -19,5 +20,6 @@ public class User {
     String firstName;
     String lastName;
     int age;
+
 
 }

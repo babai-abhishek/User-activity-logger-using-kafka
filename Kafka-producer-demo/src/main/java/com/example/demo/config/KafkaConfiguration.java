@@ -1,7 +1,7 @@
 package com.example.demo.config;
 
-import com.example.demo.entity.UserActivity;
-import model.User;
+
+import model.UserActivity;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.context.annotation.Bean;

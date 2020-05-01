@@ -1,4 +1,4 @@
-package com.example.demo.entity;
+package model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,7 +8,8 @@ import javax.persistence.*;
 
 @Entity
 @Data
-@NoArgsConstructor @AllArgsConstructor
+@NoArgsConstructor
+@AllArgsConstructor
 public class UserActivity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
