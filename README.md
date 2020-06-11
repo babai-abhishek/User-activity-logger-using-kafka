@@ -1,4 +1,4 @@
-# Order-Delivery-Microservice
+# Microservice-Kafka
 The idea is to build a simple demo application using microservices with kafka to create producer-consumer relation between different services.
 
 **Tools and Techniques**
