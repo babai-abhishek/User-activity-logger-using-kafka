@@ -14,7 +14,7 @@ Kafka, Zookeeper
 1. clean and build
 3. Change the ports according to you into the **application.yml** files
 5. Add topic into Kafka as - **user-log** with no of partition as 1 and replication factor as 1 as well
-6. Run all 2 applications
+6. Run all 2 services
 
 **Available APIs**
 ```
