@@ -1,5 +1,5 @@
-# kafka-demo
-The idea is to build a simple demo application using microservices with kafka to create producer-consumer relation between different services.
+# User activity logger using kafka
+The idea is to build a simple micro-service based application using with kafka to create a user activity logger system using kafka's producer-consumer mechanism for the communication between different services.
 
 **Tools and Techniques**
 ```
